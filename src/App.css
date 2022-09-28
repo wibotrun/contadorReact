@@ -19,7 +19,7 @@ display: flex;
   font-size:xx-large;
   color: white;
 }
-.buttons>button{
+.buttons{
 margin: 20px;
 width: 40px;
 height: 40px;
@@ -31,4 +31,12 @@ text-align: center;
 border-radius: 100% ;
 cursor: pointer;
  }
+.reset{
+  background-color: black;
+  color: white;
+  height: 35px;
+  border-radius: 30% ;
+  font-weight: bold;
+  cursor: pointer;
+}
  
