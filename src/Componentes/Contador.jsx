@@ -9,12 +9,13 @@ function Contador() {
     setContador(contador - 1);
   };
   return (
-    <div className="divMayor">
+       <div className="divMayor">
         
       <div className="contador">{contador}</div>
-      <div className="buttons">
-        <button onClick={restar}>-</button>
-        <button onClick={sumar}>+</button>
+      <div >
+        <button onClick={restar} className="buttons">-</button>
+        <button onClick={reset}className="reset">Reset</button>
+        <button onClick={sumar} className="buttons">+</button>
       </div>
     </div>
   );
