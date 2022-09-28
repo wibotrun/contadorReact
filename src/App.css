@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+display: flex;
+}
+.divMayor{
+  display: block;
+  margin: 200px;
+  
+}
+.contador{
+  width: 50px;
+  padding: 80px;
+  background-color: rgb(15, 78, 73);
+  border-radius: 100%;
+  border: 5px solid white;
+  font-weight: bold;
+  font-size:xx-large;
+  color: white;
+}
+.buttons>button{
+margin: 20px;
+width: 40px;
+height: 40px;
+color: white;
+background-color: black;
+font-size:x-large;
+font-weight: bold;
+text-align: center;
+border-radius: 100% ;
+cursor: pointer;
+ }
+ 
